@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  }
+}
+
+
+"homepage": "https://<Kush-Development>.github.io/<reimagined-sniffle>",
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+}
